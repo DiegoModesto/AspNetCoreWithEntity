@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Common\Khan.Common.Entities\Khan.Common.Entities.csproj" />
+    <ProjectReference Include="..\..\Common\Khan.Common.Entities\Khan.Common.Entities.csproj" />
     <ProjectReference Include="..\Khan.EntityFrameworkCore\Khan.EntityFrameworkCore.csproj" />
   </ItemGroup>
 

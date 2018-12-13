@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\DataBase\Khan.EntityFrameworkCore\Khan.EntityFrameworkCore.csproj" />
+    <ProjectReference Include="..\..\Common\Khan.Common.Entities\Khan.Common.Entities.csproj" />
+    <ProjectReference Include="..\..\Common\Khan.Common.ViewModel\Khan.Common.ViewModel.csproj" />
+    <ProjectReference Include="..\..\Domain\Khan.Domain.BusinessLogic\Khan.Domain.BusinessLogic.csproj" />
+    <ProjectReference Include="..\Khan.Serevices.Mapper\Khan.Serevices.Mapper.csproj" />
+  </ItemGroup>
+
+</Project>

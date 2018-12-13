@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\Common\Khan.Common.Entities\Khan.Common.Entities.csproj" />
+    <ProjectReference Include="..\..\..\src\DataBase\Khan.EntityFrameworkCore\Khan.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>
